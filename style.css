@@ -1,3 +1,10 @@
+div.blocked {
+    background-color: #a00;
+    color: #fff;
+    width: 100%;
+    height: auto;
+}
+
 div.menu {
     margin-left: 0px;
     background-color: #888;
