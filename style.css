@@ -26,8 +26,8 @@ div.menu li {
 }
 
 div.menu li ul {
-    display: none;
-    height: 0;
+    overflow: hidden;
+    max-height: 0;
     -webkit-transition: height 0.3s ease-in-out;
     -o-transition:  height 0.3s ease-in-out;
     -moz-transition: height 0.3s ease-in-out;
@@ -35,7 +35,7 @@ div.menu li ul {
 }
 
 div.menu li:hover ul {
-    display: block;
+    max-height: auto;
 }
 
 div.menu a:link {
