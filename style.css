@@ -30,6 +30,10 @@ div.menu li ul {
 
 div.menu li:hover ul {
     display: block;
+    -webkit-transition: height 0.3s ease-in-out;
+    -o-transition:  height 0.3s ease-in-out;
+    -moz-transition: height 0.3s ease-in-out;
+    transition:  height 0.3s ease-in-out;
 }
 
 div.menu a:link {
