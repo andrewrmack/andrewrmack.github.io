@@ -35,7 +35,6 @@ div.menu li ul {
 }
 
 div.menu li:hover ul {
-    height: 3em;
     display: block;
 }
 
